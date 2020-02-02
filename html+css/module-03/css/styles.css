@@ -1,17 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-
-.wrapper{
+.wrapper {
   width: 900px;
   margin: 0 auto;
-  font-family: "PlayfairDisplay", serif;
+}
+body {
+ font-family: "PlayfairDisplay", serif;
+ font-size: 14px;
+ color: #626262;
+}
+
+header {
+  margin-bottom: 104px;
+  padding-top: 78px;
 }
 
 .site-navigation {
- margin: 0;
- padding: 0;
- font-size: 14px;
- margin-bottom: 104px;
- padding-top: 78px;
  text-align: center;
 }
 
@@ -24,69 +32,70 @@
 }
   
 .site-navigation a {
-  color: #626262;
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
-  text-align: center;
+  color: #626262;
 }
   
 ul a:hover {
   color:#03a9f4;
 }
 
-.section {
+section {
   display: inline-block;
-  margin: 0;
-  padding: 0;
   width: 420px;
   vertical-align: top;
   margin-right: 56px;
   margin-bottom: 130px;
-  color: rgb(98, 98, 98);
 }
 
-.section:nth-child(3n) {
+.section-last-child {
   margin-bottom: 56px;
 }
 
-.section:nth-child(2n) {
+section:nth-child(2n) {
   margin-right: 0;
 }
 
 .section-name {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 14px;
   color: rgb(180, 173, 158);
   text-transform: uppercase;
+  margin: 24px 0;
   }
 
-.section-heading {
+.section-title  {
   font-size: 30px;
   font-weight: normal;
-  line-height: 1.2;
+  margin-bottom: 40px;
 }
 
 .section-text {
-  font-size: 14px;
   line-height: 1.714;
   text-align: left;
   margin-bottom: 0;
 }
 
+div {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
 .button {
-  display: inline-block;
-  margion: 0 auto;
+  border: 1px solid;
+  margin: 0;
+  padding: 0;
   width: 164px;
   height: 60px;
-  margin-bottom: 70px;
+  display: inline-block;
+  font-family: "PlayfairDisplay", serif;
   font-size: 20px;
-  font-family: "PlayfairDisplay";
-  color: rgb(98, 98, 98);
-  line-height: 1.2;
+  color: #626262;
+  cursor: pointer;
   }
 
-button:hover {
+.button:hover {
   color:#03a9f4;
 }
        
