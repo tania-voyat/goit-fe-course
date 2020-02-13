@@ -204,26 +204,23 @@ h2::after {
     font-family: "Open Sans";
     color: rgb(85, 82, 82);
     line-height: 26px;
-    margin-bottom: 18px;
     text-align: justify;
+    margin-bottom: 36px;
 }
 
 .button {
-    border: 1px solid #4ec6ab;
-    margin: 0;
-    padding: 0;
+    padding: 18px 44px;
     font-size: 16px;
     font-family: "Open Sans";
     text-align: center;
     width: 160px;
     height: 52px;
-    background-color: #4ec6ab;
-    border-radius: 4px;
-}
-
-.button a {
+    background-color: rgb(78, 198, 171);
+    border-radius: 3px;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    outline: none;
 }
       
+
   
