@@ -36,8 +36,8 @@
 }
 
 .menu {
-    margin-top: 44px;
-    margin-bottom: 110px;
+    padding-top: 44px;
+    padding-bottom: 110px;
 }
 
 .menu-list {
@@ -58,7 +58,12 @@
     margin-right: 30px;
 }
 
-.menu-list-items:hover {
+.menu-list-items a {
+    text-decoration: none;
+    color: rgb(81, 81, 81);
+}
+
+.menu-list-items a:hover {
     color: rgb(26, 188, 156);
 }
 
@@ -86,8 +91,7 @@ h2::after {
     background-color: rgb(26, 188, 156);
     width: 164px;
     height: 7px;
-    margin: 0 auto;
-    margin-top: 32px;
+    margin: 32px auto ;
 }
 
 .list {
@@ -97,7 +101,6 @@ h2::after {
 
 .list-items {
     width: 255px;
-    height: 322px;
     float: left;
     margin-right: 30px;
     margin-bottom: 30px;
@@ -108,8 +111,6 @@ h2::after {
 }
 
 .product-name-price {
-    width: 255px;
-    height: 40px;
     background-color: rgb(50, 50, 50);
 }
 
