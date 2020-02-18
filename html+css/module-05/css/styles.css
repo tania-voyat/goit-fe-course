@@ -11,7 +11,7 @@
 }
 
 .wrapper {
-    width: 1110px;
+    width: 1112px;
     margin: 0 auto;
 }
 
@@ -68,51 +68,176 @@
 }
 .slider {
     position: relative;
+    height: 467px;
 }
 
 .slider-overlay {
     position: absolute;
     background-color: rgba(0, 0, 2, 0.5);
     width: 100%;
-    height: 100%;
+    height: 467px;
+  }
+
+  .slider-info {
+    width: 746px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    font-family: "Roboto";
+    color: white;
+    text-transform: uppercase;
   }
 
   .slider-heading {
-    font-size: 60px;
-    font-family: "Roboto";
-    color: white;
-    text-transform: uppercase;
-    position: absolute;
+    font-size: 55px;
   }
-
-  .slider-text {
-    font-family: "Roboto";
-    color: white;
-    text-transform: uppercase;
-    position: absolute;
-  }
+  
  
 .slider-button {
     position: absolute;
     width: 106px;
     height: 106px;
-    background-color: rgba(78, 198, 171, 0.7);
+    background-color: rgba(78, 198, 171, 0.5);
     border: none;
-    cursor: pointer;
 }
   
-
 .slider-button:hover {
-  
+    cursor: pointer;
+    background-color: rgb(78, 198, 171);
 }
   
 .prev {
     top: 50%;
-    left: 0;
+    left: 246px;
     transform: translatey(-50%);
 }
 .next {
     top: 50%;
-    right: 0;
+    right: 246px;
     transform: translatey(-50%);
 }
+
+.section-heading {
+    font-size: 48px;
+    font-family: "Roboto";
+    color: rgb(81, 81, 81);
+    text-transform: uppercase;
+    line-height: 0.667;
+    text-align: center; 
+    padding: 1px;
+    margin-bottom: 118px;
+}
+
+.section-heading::after {
+    content: "";
+    display: block;
+    background-color: rgb(26, 188, 156);
+    width: 164px;
+    height: 7px;
+    margin: 32px auto 0;
+}
+
+.collection-list {    
+    list-style: none;
+}
+    
+.list-items {
+    width: 255px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.product-name-price {
+    background-color: rgb(50, 50, 50);
+}
+
+.list-items:hover .product-name-price {
+    background-color: #1ABC9C;
+}
+
+.list-items:hover .list-items {
+    
+}
+
+.product-overlay {
+    width: 232px;
+    height: 264px;
+    background-color: rgba(0, 0, 2, 0.5);
+    position: absolute;
+    top: 10px; left: 10px;
+}
+
+.product-name {
+    float: left;
+    font-family: "Roboto";
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;    
+}
+
+.product-name a {
+    color: white;
+}
+
+.price {
+    float: right;
+    width: 54px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.44);
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.price a {
+    color: white;
+}
+
+.price::before {
+    content: "\0024";
+    color: white;
+}
+
+.list-items a {
+    text-decoration: none;
+
+}
+
+.list-items:nth-child(4n) {
+    margin-right: 0;
+}
+
+.list-items:nth-child(n + 5) {
+    margin-bottom: 0;
+}
+
+.collection {
+    background-color: #e9f0fd;
+    padding: 100px;
+}
+
+.footer {
+    width: 100%;
+    height: 90px;
+    background-color: #323232;
+}
+
+.footer p {
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(254, 254, 254);
+    line-height: 1.75;
+    text-align: center;
+    
+}
+
+  
