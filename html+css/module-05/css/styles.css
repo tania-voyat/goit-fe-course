@@ -90,7 +90,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -80%);
     text-align: left;
     font-family: "Roboto";
     color: white;
@@ -106,7 +106,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 223px 0 272px 0;
   }
 
 .slider-button {
@@ -117,6 +116,7 @@
     border: none;
     background-repeat: no-repeat;
     background-position: center center;
+    transform: translatey(-50%);
 }
   
 .slider-button:hover {
@@ -183,12 +183,14 @@
     display: block;
 }
 
+.image-overlay {
+    position: relative;
+}
+
 .product-overlay {
-    width: 232px;
-    height: 264px;
     background-color: rgba(0, 0, 2, 0.5);
     position: absolute;
-    top: 10px; left: 10px;
+    top: 10px; left: 10px; bottom: 10px; right: 10px;
     opacity: 0;
 }
 
@@ -224,7 +226,7 @@
     border-style: solid;
     width: 48px;
     height: 48px;
-    background-color: rgba(0, 0, 2, 0.5);
+    background-color: inherit;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -286,11 +288,9 @@
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-.price a {
     color: white;
 }
+
 
 .price::before {
     content: "\0024";
@@ -331,8 +331,9 @@
     text-align: center;
 }
 
-.span {
+.footer a {
     color: #46bfa9;
+    text-decoration: none;
 }
 
 
