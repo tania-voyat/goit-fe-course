@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-logo {
+    font-size: 30px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    line-height: 1.2;  
+}
+
+.site-logo a {
+    color: #95e1d3;
+    text-decoration: none;
+}
+
+.site-menu {
+    display: flex;
+    width: 490px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-menu li {
+    list-style: none; 
+}
+
+.menu-items {
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: #95e1d3;
+}
+
+.menu-items a::after {
+    content: "";
+    display: block;
+    background-color: rgb(243, 129, 129);
+    width: 50px;
+    height: 3px;
+    margin: 10px auto;
+    opacity: 0;
+}
+
+.menu-items a:hover {
+    color: rgb(243, 129, 129);
+    transition: color 200ms linear;
+}
+
+.menu-items a:hover:after {
+    opacity: 1;
+    transition: opacity 200ms linear;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-header::after {
+    content: "";
+    display: block;
+    background-color: rgb(243, 129, 129);
+    width: 60px;
+    height: 3px;
+    margin: 40px auto;
+}
+
+.section-header {
+    font-size: 24px;
+    font-family: "Kaushan Script";
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.section-header span {
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-list-items {
+    list-style: none;
+    width: 376px;
+    margin-bottom: 100px;
+}
+
+.services-heading {
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: normal;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.services-text {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    text-align: left;
+}
+
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-list {
+    display: flex;
+    width: 1210px;
+    justify-content: space-between;
+}
+
+.team-list li {
+    list-style: none; 
+}
+
+.team-about {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.team-name {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.occupation {
+     font-style: italic;
+}
+
+.footer-text {
+        font-size: 14px;
+        font-family: "Montserrat";
+        color: rgb(51, 51, 51);
+        line-height: 1.2;
+}
+
+.footer {
+    display: flex;
+    min-height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: rgb(243, 129, 129);
+}
