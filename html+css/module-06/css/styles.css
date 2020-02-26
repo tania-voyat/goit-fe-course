@@ -12,6 +12,7 @@
 .site-nav {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 112px;
 }
 
 .site-logo {
@@ -30,7 +31,7 @@
     display: flex;
     width: 490px;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .site-menu li {
@@ -82,7 +83,7 @@
     background-color: rgb(243, 129, 129);
     width: 60px;
     height: 3px;
-    margin: 40px auto;
+    margin: 40px auto 66px;
 }
 
 .section-header {
@@ -94,11 +95,13 @@
 }
 
 .section-header span {
+    display: block;
     font-size: 30px;
     font-family: "Montserrat";
     color: rgb(51, 51, 51);
     font-weight: bold;
     text-transform: uppercase;
+    padding: 20px 0 0;
 }
 
 .services-list {
@@ -111,6 +114,53 @@
     list-style: none;
     width: 376px;
     margin-bottom: 100px;
+    position: relative;
+    padding-left: 62px;
+}
+
+.services-list-items::before {
+    display: block;
+    content: '';
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.photography::before {
+    background-image: url(../img/icons/photograpy.png);
+    position: absolute;
+    top: 0; left: 0;
+}
+
+.web-design::before {
+    background-image: url(../img/icons/web-design.png);
+    position: absolute;
+    top: 0; left: 0;
+}
+
+.creativity::before {
+    background-image: url(../img/icons/creativity.png);
+    position: absolute;
+    top: 0; left: 0;
+}
+
+.seo::before {
+    background-image: url(../img/icons/seo.png);
+    position: absolute;
+    top: 0; left: 0;
+}
+
+.css-html::before {
+    background-image: url(../img/icons/css-html.png);
+    position: absolute;
+    top: 0; left: 0;
+}
+
+.digital::before {
+    background-image: url(../img/icons/digital.png);
+    position: absolute;
+    top: 0; left: 0;
 }
 
 .services-heading {
@@ -137,6 +187,14 @@
     align-items: center;
 }
 
+.team-section::after {
+    content: '';
+    background-color: rgb(229, 229, 229);
+    height: 1px;
+    width: 100%;
+    display: block;
+}
+
 .team-list {
     display: flex;
     width: 1210px;
@@ -153,7 +211,7 @@
     color: rgb(153, 153, 153);
     line-height: 1.6;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 84px;
 }
 
 .team-name {
@@ -166,15 +224,81 @@
 }
 
 .occupation {
-     font-style: italic;
+    font-style: italic;
 }
 
-.footer-text {
-        font-size: 14px;
-        font-family: "Montserrat";
-        color: rgb(51, 51, 51);
-        line-height: 1.2;
+.team-overlay {
+    position: relative;
 }
+
+.team-overlay img {
+    display: block;
+    margin-bottom: 40px;
+}
+
+.gradient-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( 180deg, rgba(243,129,129, 0.8) 0%, rgba(252,227,138, 0.8) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.team-list-items:hover .gradient-overlay {
+    opacity: 1;
+    transition: opacity 200ms linear;
+}
+
+.team-list-items:hover .team-image {
+    box-shadow: 10px 10px #95e1d3;
+    transition: box-shadow 200ms linear;
+}
+
+.team-socials {
+    display: flex;
+}
+
+.team-socials a {
+    display: block;
+    width: 56px;
+    height: 56px;
+    background-color: #fce38a;
+    margin-right: 1px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.team-socials a:hover {
+    background-color: #95e1d3;
+    transition: background-color 200ms linear;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+.icon-facebook {
+    background-image: url(../img/icons/facebook.png);
+}
+
+.icon-twitter {
+    background-image: url(../img/icons/twitter.png);
+  }
+
+.icon-pinterest {
+    background-image: url(../img/icons/pinterest.png);
+  }
+
+.icon-instagram {
+    background-image: url(../img/icons/instagram.png);
+  }
 
 .footer {
     display: flex;
@@ -183,7 +307,42 @@
     justify-content: space-between;
 }
 
+.footer-text {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+}
+
 .footer-text a {
     text-decoration: none;
     color: rgb(243, 129, 129);
 }
+
+.input {
+    border: 1px solid  rgb(231, 231, 231);
+    width: 230px;
+    height: 40px;
+    float: left;
+}
+
+.input::placeholder {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(204, 204, 204);
+    font-style: italic;
+}
+  
+.button {
+    background-color: rgb(149, 225, 211);
+    width: 150px;
+    height: 40px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+  
