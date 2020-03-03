@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 946px;
+    margin: 0 auto;
+}
+
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff') format('woff'), 
+         url('../fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff2') format('woff2'); 
+}
+
+  /* montserrat-600 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/montserrat-v14-latin/montserrat-v14-latin-600.woff2') format('woff2'), 
+         url('../fonts/montserrat-v14-latin/montserrat-v14-latin-600.woff') format('woff');
+}
+
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserrat-v14-latin/montserrat-v14-latin-700.woff2') format('woff2'), 
+         url('../fonts/montserrat-v14-latin/montserrat-v14-latin-700.woff') format('woff'); 
+}
+
+  /* roboto-slab-regular - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff2') format('woff2'), 
+         url('../fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff') format('woff');   
+}
+
+  /* great-vibes-regular - latin */
+@font-face {
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/great-vibes-v7-latin/great-vibes-v7-latin-regular.woff2') format('woff2'), 
+         url('../fonts/great-vibes-v7-latin/great-vibes-v7-latin-regular.woff') format('woff'); 
+}
+
+  /* raleway-italic - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Raleway Italic'), local('Raleway-Italic'),
+         url('../fonts/raleway-v14-latin-italic.woff2') format('woff2'), 
+         url('../fonts/raleway-v14-latin-italic.woff') format('woff');
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 112px;
+}
+
+.site-logo {
+    font-size: 30px;
+    font-family: 'Great Vibes';
+}
+
+.site-logo a {
+    color: #fed136;
+    text-decoration: none;
+}
+
+.site-menu {
+    display: flex;
+    width: 490px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-menu li {
+    list-style: none; 
+}
+
+.menu-items {
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-items a:hover {
+    color:#fed136;
+    transition: color 200ms linear;
+}
+
+.section-heading {
+    font-size: 40px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.heading-text {
+    display: block;
+    font-size: 16px;
+    font-family: 'Raleway';
+    color:#777777;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 78px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.services-heading {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 18px;
+    padding: 22px;
+}
+
+.services-list-items {
+    list-style: none;
+    width: 288px;
+    text-align: center;
+}
+ 
+.services-list-items::before {
+    display: block;
+    content: '';
+    width: 74px;
+    height: 74px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    border: 3px solid #fed136;
+    border-radius: 50%;
+}
+
+.e-commerce::before {
+    background-image: url(../img/icons/Icon-Basket.png);
+}
+
+.responsive-web::before {
+    background-image: url(../img/icons/Icon-Laptop.png);
+}
+
+.web-security::before {
+    background-image: url(../img/icons/Icon-Locked.png);
+}
+
+.services-text {
+    font-family: 'Roboto Slab';
+    font-weight: regular;
+    font-size: 14px;
+    color: #777777;
+    line-height: 1.6;
+}
+
+.contact {
+    color: white;
+}
+
+.form-section {
+    background-color: #222222;
+    background-image: url(../img/Map\ Image.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 108px;
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.input-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input {
+    width: 460px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 24px;
+}
+
+.textarea {
+    width: 460px;
+    border: none;
+    border-radius: 3px;
+    padding: 14px 24px;
+}
+
+.input::placeholder {
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 14px;
+    color: #bbbbbb;
+}
+
+.textarea::placeholder {
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 14px;
+    color: #bbbbbb;
+}
+
+.button {
+    width: 240px;
+    height: 66px;
+    border: none;
+    border-radius: 3px;
+    background-color: #fed136;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.input:required:focus:valid {
+    outline: 2px solid green; 
+}
+
+.input:required:focus:invalid {
+    outline: 2px solid red;
+}
+
+.textarea:required:focus:valid {
+    outline: 2px solid green; 
+}
+
+.textarea:required:focus:invalid {
+    outline: 2px solid red;
+}
+
+#message-textarea {
+    resize: none;
+}
+
+
+
+
+
