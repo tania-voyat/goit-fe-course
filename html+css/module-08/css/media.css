@@ -1,0 +1,45 @@
+@media (min-width: 680px) {
+    
+    .site-nav {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+
+    .header {
+        padding: 50px;
+    }
+
+    .header-text {
+        width: 520px;
+    }
+
+    .logo {
+        padding: 0;
+    }
+
+    .heading {
+        font-size: 52px;
+    }
+
+    .sub-heading {
+        padding: 40px 0;
+    }
+
+    .partners-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 470px;
+    }
+}
+
+@media (min-width: 940px) {
+    .partners-list {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 940px;
+
+}
