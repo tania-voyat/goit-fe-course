@@ -23,16 +23,17 @@
     padding-bottom: 40px;
 }
 
-.site-nav a {
+.log_sign_buttons button {
     font-size: 14px;
     font-family: "Montserrat";
     color: rgb(255, 255, 255);
     font-weight: bold;
-    text-decoration: none;
+    background: none;
 }
 
 .log_in {
     padding-right: 20px;
+    border: none;
 }
 
 .sign_up {
@@ -63,7 +64,7 @@
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
-  }
+}
 
   .sub-heading {
     font-size: 20px;
@@ -72,7 +73,7 @@
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 20px 0;
-  }
+}
 
   .button {
     font-size: 13px;
