@@ -8,8 +8,6 @@
     min-width: 320px;
     margin: 0 auto;
     text-align: center;
-   
-    
 }
 
 .header {
@@ -26,11 +24,11 @@
 }
 
 .site-nav a {
-        font-size: 14px;
-        font-family: "Montserrat";
-        color: rgb(255, 255, 255);
-        font-weight: bold;
-        text-decoration: none;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .log_in {
@@ -44,14 +42,14 @@
 }
 
 .logo {
-        font-size: 20px;
-        font-family: "Montserrat";
-        color: rgb(255, 255, 255);
-        font-weight: bold;
-        text-transform: uppercase;
-        padding-top: 170px;
-        margin: 0;
-        letter-spacing: 0.05em;
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 170px;
+    margin: 0;
+    letter-spacing: 0.05em;
 }
 
 .header-text {
@@ -68,60 +66,60 @@
   }
 
   .sub-heading {
-        font-size: 20px;
-        font-weight: 300;
-        font-family: "Roboto";
-        color: rgb(255, 255, 255);
-        text-align: center;
-        padding: 20px 0;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 0;
   }
 
   .button {
-        font-size: 13px;
-        font-family: "Montserrat";
-        background-color: rgb(255, 78, 80);
-        font-weight: bold;
-        color: white;
-        border: none;
-        border-radius: 20px;
-        padding: 15px 50px;
+    font-size: 13px;
+    font-family: "Montserrat";
+    background-color: rgb(255, 78, 80);
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 50px;
   }
   
   .partners-section {
-      padding: 70px 26px 0;
+    padding: 70px 26px 0;
   }
 
   .section-heading {
-        font-size: 22px;
-        font-family: "Montserrat";
-        color: rgb(51, 51, 51);
-        font-weight: bold;
-        margin-bottom: 20px;
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    margin-bottom: 20px;
   }
 
   .partners-list-item {
-      list-style: none;
-      width: 200px;
-      margin: 0 auto 30px;
+    list-style: none;
+    width: 200px;
+    margin: 0 auto 30px;
   }
 
   .partners-name {
-        font-size: 14px;
-        font-family: "Montserrat";
-        color: rgb(51, 51, 51);
-        font-weight: bold;
-        padding: 20px 0;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    padding: 20px 0;
   }
 
   .partners-text {
-        font-size: 14px;
-        font-family: "Roboto";
-        color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(102, 102, 102);
   }
 
   .partners-img {
-      position: relative;
-      display: inline-block;
+    position: relative;
+    display: inline-block;
   } 
   
   .partners-img::after {
@@ -135,7 +133,6 @@
     border: 3px solid white;
     background-repeat: no-repeat;
     background-position: center;
-    
   }
 
   .tv-icon::after {
@@ -144,29 +141,28 @@
   }
 
   .colb-icon::after {
-      background-color: #ffa507;
-      background-image: url(../img/icons/icon_2.png);
+    background-color: #ffa507;
+    background-image: url(../img/icons/icon_2.png);
   }
 
   .coffe-icon::after {
-      background-color: #1cd7ad;
-      background-image: url(../img/icons/icon_3.png);
+    background-color: #1cd7ad;
+    background-image: url(../img/icons/icon_3.png);
   }
 
   .plane-icon::after {
-      background-color: #4e73db;
-      background-image: url(../img/icons/icon_4.png);
+    background-color: #4e73db;
+    background-image: url(../img/icons/icon_4.png);
   }
 
   .other_button {
-        font-size: 14px;
-        font-family: "Montserrat";
-        color: rgb(255, 78, 80);
-        font-weight: bold;
-        border: 1px solid rgb(255, 78, 80);
-        border-radius: 30px;
-        padding: 15px 74px;
-        background-color: white;
-        margin-bottom: 56px;
-      
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 78, 80);
+    font-weight: bold;
+    border: 1px solid rgb(255, 78, 80);
+    border-radius: 30px;
+    padding: 15px 74px;
+    background-color: white;
+    margin-bottom: 56px;
   }
