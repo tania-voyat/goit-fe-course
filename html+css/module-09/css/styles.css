@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    background-color: rgb(26, 25, 21);
+    background-image: url(../img/Vector\ Smart\ Object.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 700px;
+    padding: 20px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.log_in, .sign_up {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background: none;
+}
+
+.log_in {
+    padding-right: 20px;
+    border: none;
+}
+
+.sign_up {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 170px;
+    margin-bottom: 40px;
+    letter-spacing: 0.05em;
+}
+
+.heading {
+    font-size: 28px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+  .sub-heading {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+  .button {
+    font-size: 13px;
+    font-family: "Montserrat";
+    background-color: rgb(255, 78, 80);
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 50px;
+  }
+
+  .partners-section {
+    padding: 70px 30px 0;
+  }
+
+  .section-heading {
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .partners-list-item {
+    list-style: none;
+    width: 200px;
+    margin: 0 auto 30px;
+    text-align: center;
+  }
+
+  .partners-name {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    padding: 20px 0;
+  }
+
+  .partners-text {
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(102, 102, 102);
+  }
+
+  .partners-img {
+    position: relative;
+    display: inline-block;
+  } 
+  
+  .partners-img::after {
+    display: block;
+    content: '';
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    bottom: 0; right: 0;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .tv-icon::after {
+    background-color: #ff4e50;
+    background-image: url(../img/icons/icon_1.png);
+  }
+
+  .colb-icon::after {
+    background-color: #ffa507;
+    background-image: url(../img/icons/icon_2.png);
+  }
+
+  .coffe-icon::after {
+    background-color: #1cd7ad;
+    background-image: url(../img/icons/icon_3.png);
+  }
+
+  .plane-icon::after {
+    background-color: #4e73db;
+    background-image: url(../img/icons/icon_4.png);
+  }
+
+  .other_button {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 78, 80);
+    font-weight: bold;
+    border: 1px solid rgb(255, 78, 80);
+    border-radius: 30px;
+    padding: 15px 74px;
+    background-color: white;
+    margin-bottom: 56px;
+  }
+
+  @media (min-width: 768px) {
+    .logo {
+      padding: 0;
+      margin: 0;
+    }
+
+    .site-nav {
+      margin-bottom: 160px;
+    }
+
+    .heading {
+      font-size: 52px;
+  }
