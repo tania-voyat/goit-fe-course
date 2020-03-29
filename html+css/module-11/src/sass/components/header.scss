@@ -1,0 +1,11 @@
+.header-background {
+  height: 800px;
+  background: url(../images/Layer.png) no-repeat;
+  background-size: cover;
+  margin-bottom: 40px;
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background: url(../images/Layer@2x.png) no-repeat;
+    background-size: cover;
+  }
+}

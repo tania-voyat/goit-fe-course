@@ -1,0 +1,64 @@
+.services-list {
+  @extend %list;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services-list__item {
+  width: 376px;
+  margin-bottom: 100px;
+  position: relative;
+  padding-left: 62px;
+
+  &::before {
+    display: block;
+    content: '';
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 0; left: 0;
+  }
+}
+
+.photography::before {
+  background-image: url(../images/icons/photography.png);  
+}
+
+.web-design::before {
+  background-image: url(../images/icons/web-design.png);
+}
+
+.creativity::before {
+  background-image: url(../images/icons/creativity.png);
+}
+
+.seo::before {
+  background-image: url(../images/icons/seo.png);
+}
+
+.css-html::before {
+  background-image: url(../images/icons/css-html.png);
+}
+
+.digital::before {
+  background-image: url(../images/icons/digital.png);
+}
+
+.services-list__heading {
+  font-size: 14px;
+  font-family: $primary-heading-font;
+  font-weight: normal;
+  color: $primary-dark-color;
+  text-transform: uppercase;
+}
+
+.services-list__text {
+  font-size: 15px;
+  font-family: $primary-text-font;
+  color: $text-light-color;
+  line-height: 1.6;
+  text-align: left;
+}

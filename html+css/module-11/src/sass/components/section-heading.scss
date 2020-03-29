@@ -1,0 +1,40 @@
+.section__heading {
+  font-size: 24px;
+  font-family: $secondary-heading-font;
+  color: $primary-dark-color;
+  text-align: center;
+
+  & span {
+    display: block;
+    font-size: 30px;
+    font-family: $primary-heading-font;
+    color: $primary-dark-color;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px 0 0;
+  }
+}
+
+.section__heading--after:after {
+  content: "";
+  display: block;
+  background-color: $secondary-accent-color;
+  width: 60px;
+  height: 3px;
+  margin: 40px auto 66px;
+}
+
+.section__heading--white {
+  font-size: 72px;
+  color: $primary-white-color;
+  margin-bottom: 80px;
+
+  & span {
+    font-size: 150px;
+    color: $primary-white-color;
+    line-height: 0.933;
+    width: 820px;
+    margin: 0 auto;
+  }
+}
+

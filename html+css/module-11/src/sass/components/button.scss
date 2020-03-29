@@ -1,0 +1,17 @@
+.button {
+  display: block;
+  font-size: 14px;
+  font-family: $primary-heading-font;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: $primary-white-color;
+  cursor: pointer;
+}
+
+.button-header {
+  margin: 0 auto;
+  background-color: inherit;
+  border: 2px solid $primary-white-color;    
+  padding: 10px 30px;
+}

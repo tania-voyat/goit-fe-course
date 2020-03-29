@@ -1,0 +1,48 @@
+.site-menu {
+  @extend %list;
+  display: flex;
+  width: 490px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.site-menu__item {
+  font-size: 14px;
+  font-family: $primary-heading-font;
+  font-weight: 500;
+  text-transform: uppercase;
+
+  & a {
+    text-decoration: none;
+    color: $primary-white-color;
+  }
+
+  & a::after {
+    content: "";
+    display: block;
+    background-color: $primary-accent-color;
+    height: 3px;
+    margin: 10px auto;
+    opacity: 0;
+    width: auto;
+  }
+
+  & a:hover {
+    color: $primary-accent-color;
+    transition: color 200ms linear;
+  }
+}
+
+.site-menu__item--after a:hover:after {
+  opacity: 1;
+  transition: opacity 200ms linear;
+}
+
+.site-menu__item svg {
+  fill: $primary-white-color;
+}
+
+.site-menu__item a:hover svg {
+  fill: $primary-accent-color;
+  transition: fill 200ms linear;
+}
